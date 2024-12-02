@@ -1,7 +1,7 @@
 import axios, {AxiosRequestConfig, AxiosResponse} from 'axios';
-import Storage from './storage';
+import Storage from '@/utils/storage';
 
-import {ToastMsg} from './toast'; // 引入 ToastMsg 方法
+import {ToastMsg} from '@/utils/toast'; // 引入 ToastMsg 方法
 
 class AxiosService {
   private instance;
